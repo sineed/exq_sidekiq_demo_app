@@ -7,7 +7,7 @@ def elixir_env
 end
 
 redis_options = {
-  namespace: "exr:#{elixir_env}",
+  namespace: "exq:#{elixir_env}",
   url: "redis://127.0.0.1:6379"
 }
 

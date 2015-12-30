@@ -14,7 +14,9 @@ defmodule ElixirApp.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger, :exq]]
+    [
+      applications: [:logger, :exq]
+    ]
   end
 
   # Dependencies can be Hex packages:
