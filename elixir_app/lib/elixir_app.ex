@@ -1,0 +1,2 @@
+defmodule ElixirApp do
+end
